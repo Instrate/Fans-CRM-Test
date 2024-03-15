@@ -10,7 +10,7 @@
 * Direct:
 > Prepare:
     ```
-      npm install -g @nestjs/cli & npm i
+        npm install -g @nestjs/cli & npm i
     ``` <hr/>
 > Run:
     ```
@@ -22,11 +22,11 @@
     ```
 
 * Docker:
-> Run
-    ``` 
-      docker-compose up -d --build
+> Run:
+    ```
+        docker-compose up -d --build
     ``` <hr/>
-> Close 
+> Close: 
     ```
         docker-compose down --rmi all -v
     ```
