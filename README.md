@@ -1,7 +1,7 @@
 # Fans CRM test task
 ## **Summary**:
-* [##](#info) Info
-* [##](#launch) Launch
+* [Info](#info)
+* [Launch](#launch)
 
 ## Info
 
@@ -11,9 +11,9 @@
 
 ## Launch
 ### Summary:
-* [###](#database) Database
-* [###](#direct) Direct
-* [###](#docker) Docker
+* [Database](#database)
+* [Direct](#direct)
+* [Docker](#docker)
 
 ### Database:
 
