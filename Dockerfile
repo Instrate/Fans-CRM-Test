@@ -2,7 +2,7 @@ FROM node:20-bullseye-slim
 
 LABEL authors="Instrate"
 
-ENTRYPOINT ["top", "-b"]
+EXPOSE 3000
 
 RUN npm install -g npm@10.5.0
 

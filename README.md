@@ -7,6 +7,7 @@
 
 * Framework: **NestJS**
 * Node version: **20 lts**
+* Database: **`MySQL v8.3.0`** _aka_ **`mysql:oracle` on docker hub** 
 
 ## Launch
 ### Summary:

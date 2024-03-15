@@ -3,6 +3,7 @@ name: fans-crm-test
 
 services:
   back:
+    image: fans-crm-test-back:latest
     build: .
     container_name: fans-crm-back-test-c
     ports:
