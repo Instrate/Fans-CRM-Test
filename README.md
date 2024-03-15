@@ -6,27 +6,37 @@
 * Node version: **20 lts**
 
 ## Launch
+### Direct:
+* Prepare:
+    
+```bash
+npm install -g @nestjs/cli & npm i
+```
+<hr/>
 
-* Direct:
-> Prepare:
-    ```
-        npm install -g @nestjs/cli & npm i
-    ``` <hr/>
-> Run:
-    ```
-        npm run start
-    ``` <hr/>
-> Build:
-    ```
-        npm run build
-    ```
+* Run:
 
-* Docker:
-> Run:
-    ```
-        docker-compose up -d --build
-    ``` <hr/>
-> Close: 
-    ```
-        docker-compose down --rmi all -v
-    ```
+```bash
+npm run start
+```
+<hr/>
+
+* Build:
+
+```bash
+npm run build
+```
+
+### Docker:
+* Run:
+
+```bash
+docker-compose up -d --build
+```
+<hr/>
+
+* Close:
+
+```bash
+docker-compose down --rmi all -v
+```
