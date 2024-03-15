@@ -28,7 +28,7 @@ docker pull mysql:oracle
 
 * Running database container:
 
-###### Note that the name of the `container name` > ``--name ...``, exposed `port` > ``-p ...:3306`` and `password` > ``-e MYSQL_ROOT_PASSWORD=...`` are recommended to be changed before executing this command
+##### Note that the name of the `container name` > ``--name ...``, exposed `port` > ``-p ...:3306`` and `password` > ``-e MYSQL_ROOT_PASSWORD=...`` are recommended to be changed before executing this command
 
 ```bash
 docker run --name mysql-fans-crm-test-c -p 3306:3306 -e MYSQL_ROOT_PASSWORD=<custom_pwd> -d mysql:oracle
