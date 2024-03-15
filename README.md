@@ -9,6 +9,10 @@
 * Node version: **20 lts**
 
 ## Launch
+### Summary:
+* [###](#direct) Direct
+* [###](#docker) Docker
+
 ### Direct:
 * Prepare:
     
