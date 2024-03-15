@@ -1,4 +1,7 @@
 # Fans CRM test task
+## **Summary**:
+* [##](#info) Info
+* [##](#launch) Launch
 
 ## Info
 
@@ -9,34 +12,34 @@
 ### Direct:
 * Prepare:
     
-```bash
+```$bash
 npm install -g @nestjs/cli & npm i
 ```
 <hr/>
 
 * Run:
 
-```bash
+```$bash
 npm run start
 ```
 <hr/>
 
 * Build:
 
-```bash
+```$bash
 npm run build
 ```
 
 ### Docker:
 * Run:
 
-```bash
+```$bash
 docker-compose up -d --build
 ```
 <hr/>
 
 * Close:
 
-```bash
+```$bash
 docker-compose down --rmi all -v
 ```
