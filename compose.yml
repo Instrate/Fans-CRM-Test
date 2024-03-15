@@ -1,0 +1,15 @@
+version: "3.8"
+name: fans-crm-test
+
+services:
+  back:
+    build: .
+    container_name: fans-crm-back-test-c
+    ports:
+      - "3001:3000"
+    volumes:
+      # for development
+      - ./dist:/home/app/dist
+      - /home/app/node_modules
+    stdin_open: true
+    tty: true
