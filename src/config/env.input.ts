@@ -1,4 +1,5 @@
 import { IsNotEmpty, IsNumberString, IsString, Matches } from "class-validator";
+import { PortRegexp } from "./env.constants";
 
 export class EnvSchema {
 
@@ -6,7 +7,7 @@ export class EnvSchema {
   @IsString()
   DATABASE_HOST!: string;
 
-  @Matches(/^([1-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$/)
+  @Matches(PortRegexp)
   @IsNumberString({ no_symbols: true })
   DATABASE_PORT: string;
 
@@ -22,5 +23,8 @@ export class EnvSchema {
   @IsString()
   DATABASE_NAME!: string;
 
+  @Matches(PortRegexp)
+  @IsNumberString({ no_symbols: true })
+  APPLICATION_PORT!: string;
 
 }

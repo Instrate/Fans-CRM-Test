@@ -10,7 +10,6 @@ export class AppService {
 
   constructor() {
     this.env = new EnvService(EnvSchema).properties;
-
     AppService.Ref ??= this;
   }
 

@@ -1,8 +1,8 @@
-import { Module } from '@nestjs/common';
-import { EnvModule } from "./env/env.module";
+import { DynamicModule, Module } from "@nestjs/common";
+import { Type } from "@nestjs/common/interfaces/type.interface";
+import { ForwardReference } from "@nestjs/common/interfaces/modules/forward-reference.interface";
 
-const ModuleSet = [
-  EnvModule
+const ModuleSet: Array<Type<any> | DynamicModule | Promise<DynamicModule> | ForwardReference> = [
 ]
 
 @Module({
