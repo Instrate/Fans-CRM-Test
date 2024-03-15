@@ -1,0 +1,12 @@
+/.env.example
+
+/dist
+/node_modules
+/.git
+.eslintrc.js
+package-lock.json
+.prettierrc
+compose.yml
+/.idea
+/.vscode
+/.vs
