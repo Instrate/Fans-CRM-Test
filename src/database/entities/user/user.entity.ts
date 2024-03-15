@@ -1,17 +1,25 @@
-import { Column, Model, Table } from "sequelize-typescript";
+import { Column, Model, Table, Unique } from "sequelize-typescript";
 
 
-@Table
+@Table({
+  timestamps: true
+})
 export class UserEntity extends Model{
+  @Unique
+  @Column
+  email!: string;
+
+
   @Column
   full_name!: string;
 
-  @Column
-  email!: string;
 
   @Column
   phone!: string;
 
+
   @Column
   password!: string;
 }
+
+export const UserEntityName = 'users';

@@ -6,6 +6,7 @@ export const databaseProviders = [
     provide: "SEQUELIZE",
     useFactory: async() => {
       const sequilize = new Sequelize({
+        repositoryMode: true,
         dialect: 'mysql',
         host: process.env.DATABASE_HOST,
         port: Number(process.env.DATABASE_PORT),
