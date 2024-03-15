@@ -22,6 +22,7 @@ Path.api.v1 = {
   ...Path.api.v1,
   add_user: Route(Path.api.v1.root, 'add-user'),
   get_user: Route(Path.api.v1.root, 'get-user/:id'),
+  login_user: Route(Path.api.v1.root, 'login')
 };
 
 export { Path };

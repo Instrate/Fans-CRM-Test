@@ -27,4 +27,8 @@ export class EnvSchema {
   @IsNumberString({ no_symbols: true })
   APPLICATION_PORT!: string;
 
+  @Matches(/^(1[0-5]|[1-9])$/gds)
+  @IsNumberString({ no_symbols: true })
+  @IsString()
+  DATABASE_DATA_HASH_ITERATIONS!: string;
 }

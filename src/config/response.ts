@@ -5,5 +5,11 @@ export const ApiResponseMessage = {
     api: {
       validationError: 'validationError'
     }
+  },
+  user: {
+    creationError: 'userCreationError',
+    creationSuccess: 'userCreationSuccess',
+    notFoundError: 'userNotFound',
+    tokenInvalid: 'invalidToken'
   }
 }
