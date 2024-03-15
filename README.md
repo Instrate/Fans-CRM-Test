@@ -33,6 +33,7 @@ docker pull mysql:oracle
 ```bash
 docker run --name mysql-fans-crm-test-c -p 3306:3306 -e MYSQL_ROOT_PASSWORD=<custom_pwd> -d mysql:oracle
 ```
+##### Default username for database is `root`
 
 ### Direct:
 * Prepare:
