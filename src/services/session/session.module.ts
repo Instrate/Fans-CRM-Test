@@ -16,4 +16,4 @@ const ModuleSet = [SessionGuard, JwtService, JwtStrategy, SessionService];
 	providers: ModuleSet,
 	exports: ModuleSet,
 })
-export class SessionModule { }
+export class SessionModule {}

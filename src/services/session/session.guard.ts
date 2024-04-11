@@ -15,7 +15,7 @@ export class SessionGuard implements CanActivate {
 		private jwtService: JwtService,
 		private jwtStrategy: JwtStrategy,
 		private reflector: Reflector,
-	) { }
+	) {}
 
 	private extractTokenFromHeader(request: Request): string | undefined {
 		const [type, token] = request.headers.authorization?.split(" ") ?? [];
